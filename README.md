@@ -26,5 +26,9 @@ Use Settings > Restore Purchases option.
 Taskify kullanıcı verilerini üçüncü taraflarla paylaşmaz. Google ile giriş yapıldığında yalnızca ad, e-posta ve profil fotoğrafı saklanır. Tüm görev verileri Firebase Firestore'da kullanıcıya özel olarak şifrelenir.
 
 Taskify does not share user data with third parties. When signing in with Google, only name, email and profile photo are stored. All task data is encrypted per-user in Firebase Firestore.
+## AI Assistant Data Sharing / AI Asistan Veri Paylaşımı
 
-Contact: aligur@email.com
+Taskify's AI Assistant feature sends task data (titles, descriptions, categories, priorities, due dates) to Anthropic's Claude API for analysis. No personal information (email, password, profile data) is shared with Anthropic. Users must explicitly consent before any data is sent. 
+
+Taskify'ın AI Asistan özelliği, görev verilerini (başlıklar, açıklamalar, kategoriler, öncelikler, son tarihler) analiz için Anthropic'in Claude API'sine gönderir. Kişisel bilgiler (e-posta, şifre, profil verileri) Anthropic ile paylaşılmaz. Veri gönderilmeden önce kullanıcının açık onayı alınır.
+Contact: agur32323@gmail.com
